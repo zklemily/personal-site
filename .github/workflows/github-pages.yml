@@ -33,7 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          repository: zklemily/zklemily.github.io # Update this with your repository details
+          repository: zklemily/personal-site # Update this with your repository details
           ref: main # Update this if you're using a different branch
       - name: Setup Node
         uses: actions/setup-node@v3
