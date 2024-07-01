@@ -6,10 +6,12 @@ import PropTypes from 'prop-types';
 
 const Skills = ({ data }) => (
   <div className="skills">
-    <h3>Skills</h3>
+    <div className="title">
+      <h3>Skills</h3>
+    </div>
     <ul>
-      <li><strong>Technologies:</strong> {data.technologies}</li>
-      <li><strong>Languages:</strong> {data.languages}</li>
+      <li>Technologies: {data.technologies}</li>
+      <li>Languages:{data.languages}</li>
     </ul>
   </div>
 );
