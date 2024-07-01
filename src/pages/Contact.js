@@ -1,14 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Main from "../layouts/Main";
-import EmailLink from "../components/Contact/EmailLink";
-import ContactIcons from "../components/Contact/ContactIcons";
+import Main from '../layouts/Main';
+import EmailLink from '../components/Contact/EmailLink';
+import ContactIcons from '../components/Contact/ContactIcons';
 
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Michael D'Angelo via email @ hi@mldangelo.com"
+    description="Contact Kaili Zhang via email @ ezhang1024@gmail.com"
   >
     <article className="post" id="contact">
       <header>
