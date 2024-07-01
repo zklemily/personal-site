@@ -6,8 +6,8 @@ import routes from '../../data/routes';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => (
-  <header id='header'>
-    <h1 className='index-link'>
+  <header id="header">
+    <h1 className="index-link">
       {routes
         .filter((l) => l.index)
         .map((l) => (
@@ -16,7 +16,7 @@ const Navigation = () => (
           </Link>
         ))}
     </h1>
-    <nav className='links'>
+    <nav className="links">
       <ul>
         {routes
           .filter((l) => !l.index)
