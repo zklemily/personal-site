@@ -7,7 +7,7 @@ I have a passion for solving problems, helping others, and enjoying the great ou
 
 # Some history
 
-I grew up in [Chongqing](<https://en.wikipedia.org/wiki/Chongqing>), China, a city renowned for its breathtaking landscape and deliciously spicy food. Although 
+I grew up in [Chongqing](https://en.wikipedia.org/wiki/Chongqing), China, a city renowned for its breathtaking landscape and deliciously spicy food. Although 
 I'm not particularly good at handling spicy food, I cherish the rich cultural heritage and the vibrant atmosphere of my 
 hometown. In 2016, I moved to the United States to attend Rice University. My time at Rice was transformative, providing 
 me with a strong foundation in analytical thinking and problem-solving.
