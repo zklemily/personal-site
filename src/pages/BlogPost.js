@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
+import Markdown from 'markdown-to-jsx';
+
+import Main from '../layouts/Main';
 
 const BlogPost = () => {
     const { slug } = useParams();
@@ -17,9 +19,9 @@ const BlogPost = () => {
     }, [slug]);
 
     return (
-        <main>
-            <ReactMarkdown>{content}</ReactMarkdown>
-        </main>
+        <Main>
+            <Markdown>{content}</Markdown>
+        </Main>
     );
 };
 
