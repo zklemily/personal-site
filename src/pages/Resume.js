@@ -27,7 +27,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2>
-            <a href={`${process.env}/Kaili_Zhang_Resume.pdf`} target="_blank" rel="noopener noreferrer">
+            <a href={'https://zklemily.github.io/personal-site/Kaili_Zhang_Resume.pdf'} target="_blank" rel="noopener noreferrer">
               Download My Resume
             </a>
           </h2>
