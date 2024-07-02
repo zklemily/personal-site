@@ -44,8 +44,8 @@ const Resume = () => (
       <section id="pdf">
         <h2>PDF Resume</h2>
         <p>
-          <a href={`${process.env.PUBLIC_URL}/Kaili_Zhang_Resume.pdf`} target="_blank" rel="noopener noreferrer">
-            View Resume PDF
+          <a href={`${process.env}/Kaili_Zhang_Resume.pdf`} target="_blank" rel="noopener noreferrer">
+            View My Resume
           </a>
         </p>
       </section>
