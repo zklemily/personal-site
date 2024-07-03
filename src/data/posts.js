@@ -1,9 +1,9 @@
 const data = [
   {
-    slug: 'first-post',
-    title: 'My First Post',
-    snippet: 'my first post',
-    image: '/images/blog/golf.jpg',
+    slug: 'golf-and-tennis',
+    title: 'What I Think About When I Play Golf and Tennis',
+    snippet: 'Consistency is key.',
+    image: '/images/blog/golf-cover.jpg',
     date: '2024-07-02',
   },
 ];

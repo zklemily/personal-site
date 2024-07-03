@@ -1,5 +1,4 @@
 # Intro
-
 I am an aspiring Software Engineer with a Bachelor's degree in Mathematical Economic Analysis.
 
 

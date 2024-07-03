@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
+import data from '../data/posts';
 import Main from '../layouts/Main';
 
 const BlogPost = () => {
@@ -18,9 +19,21 @@ const BlogPost = () => {
       .catch((err) => console.error(err));
   }, [slug]);
 
+  const post = data.find((p) => p.slug === slug);
+  const title = post ? post.title : 'Blog Post';
+
   return (
-    <Main>
-      <Markdown>{content}</Markdown>
+    <Main title={title}>
+      <article className="post markdown">
+        <header>
+          <div className="title">
+            <h2>
+              {title}
+            </h2>
+          </div>
+        </header>
+        <Markdown>{content}</Markdown>
+      </article>
     </Main>
   );
 };
