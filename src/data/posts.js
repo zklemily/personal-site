@@ -5,7 +5,10 @@ const data = [
     snippet: 'Consistency is key.',
     image: '/images/blog/golf-cover.jpg',
     date: '2024-07-02',
+    categories: ['Sports'],
   },
 ];
 
-export default data;
+const categories = [...new Set(data.flatMap((post) => post.categories))].sort();
+
+export { data, categories };

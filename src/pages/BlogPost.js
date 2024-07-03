@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 
-import data from '../data/posts';
+import { data } from '../data/posts';
 import Main from '../layouts/Main';
 
 const BlogPost = () => {
@@ -10,7 +10,7 @@ const BlogPost = () => {
   const [content, setContent] = useState('');
 
   useEffect(() => {
-    import(`../posts/${slug}.md`)
+    import(`../../public/posts/${slug}.md`)
       .then((res) => {
         fetch(res.default)
           .then((response) => response.text())

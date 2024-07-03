@@ -9,4 +9,20 @@
   h1, h2, h3, h4, h5, h6 {
     margin-top: 2em;
   }
+
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 300px;
+    height: auto;
+
+    @media (max-width: 736px) {
+      max-width: 60%; // Reduce the max-width for smaller screens
+    }
+
+    @media (max-width: 480px) {
+      max-width: 40%; // Further reduce the max-width for very small screens
+    }
+  }
+
 }
