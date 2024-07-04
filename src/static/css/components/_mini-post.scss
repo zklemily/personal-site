@@ -12,13 +12,14 @@
     position: absolute;
     padding: 0;
     bottom: 0;
-    border-top: solid 1px _palette(border);
+    //border-top: solid 1px _palette(border);
+    border: 1px solid rgba(160, 160, 160, 0.3);
 
     p {
       font-size: 0.9rem;
       margin: 0;
       padding: 1.25em;
-      background-color: rgba(255, 255, 255, 0.7);
+      background-color: rgba(255,255,255,.9);
       color: #3c3b3b;
       font-family: "Raleway", Helvetica, sans-serif;
       z-index: 1000;
@@ -27,7 +28,7 @@
     }
 
     p:hover {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255,255,255,.9);
     }
   }
 
@@ -41,27 +42,24 @@
 }
 
 .mini-post {
-  @include vendor("display", "flex");
-  @include vendor("flex-direction", "column");
+  @include vendor( 'display', 'flex');
+  @include vendor( 'flex-direction', 'column');
   background: _palette(bg);
-  border: solid 1px _palette(border);
-  margin: 0 0 _size(element-margin);
+  border: 1px solid rgba(160, 160, 160, 0.1);
+  margin: 0 0 4em;
 
   .image {
     overflow: hidden;
     width: 100%;
 
     img {
-      @include vendor(
-        "transition",
-        "transform #{_duration(transition)} ease-out"
-      );
+      @include vendor( 'transition', 'transform #{_duration(transition)} ease-out');
       width: 100%;
     }
 
     &:hover {
       img {
-        @include vendor("transform", "scale(1.05)");
+        @include vendor( 'transform', 'scale(1.05)');
       }
     }
   }
@@ -71,7 +69,7 @@
     @include padding(1.25em, 1.25em, (0, 3em, 0, 0));
     min-height: 4em;
     position: relative;
-    @include vendor("flex-grow", "1");
+    @include vendor( 'flex-grow', '1');
 
     h3 {
       font-size: 0.7em;
@@ -98,8 +96,8 @@
 .mini-posts {
   margin: 0 0 _size(element-margin);
   @include breakpoint(large) {
-    @include vendor("display", "flex");
-    @include vendor("flex-wrap", "wrap");
+    @include vendor( 'display', 'flex');
+    @include vendor( 'flex-wrap', 'wrap');
     width: calc(100% + #{_size(element-margin)});
 
     > * {
