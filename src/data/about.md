@@ -1,5 +1,5 @@
 # Intro
-I am an aspiring Software Engineer with a Bachelor's degree in Mathematical Economic Analysis.
+I am an aspiring Software Engineer with a Master's degree in Computer and Information Technology and Bachelor's degree in Mathematical Economic Analysis.
 
 
 I have a passion for solving problems, helping others, and enjoying the great outdoors. My journey has taken me across different continents and cities, each shaping my unique perspective and skills.

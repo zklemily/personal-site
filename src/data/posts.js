@@ -7,6 +7,14 @@ const data = [
     date: '2024-07-02',
     categories: ['Sports'],
   },
+  {
+    slug: 'confidence',
+    title: 'From Self-Doubt to Self-Belief',
+    snippet: 'My journey.',
+    image: '/images/blog/confidence.jpg',
+    date: '2024-08-29',
+    categories: ['Personal'],
+  },
 ];
 
 const categories = [...new Set(data.flatMap((post) => post.categories))].sort();
