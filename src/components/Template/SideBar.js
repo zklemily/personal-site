@@ -22,8 +22,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Kaili. I recently graduated from University of Pennsylvania
-        with Master&apos;s in Computer and Information Technology.
+        Hi, I&apos;m Kaili. I am a Software Engineer at <Link to="https://www.intersystems.com/">InterSystems Corporation</Link>.
+        I recently graduated from University of Pennsylvania with Master's in Computer and Information Technology.
       </p>
       <ul className="actions">
         <li>
